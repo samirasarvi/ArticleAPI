@@ -4,5 +4,5 @@ from .models import Article
 # Register your models here.
 @admin.register(Article)
 class ArticleModel(admin.ModelAdmin):
-    list_filter = ('title','descripton')
-    list_display = ('title','descripton')
+    list_filter = ('title','description')
+    list_display = ('title','description')
